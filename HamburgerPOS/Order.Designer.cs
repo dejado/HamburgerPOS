@@ -32,8 +32,8 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.bt1 = new System.Windows.Forms.Button();
             this.bt2 = new System.Windows.Forms.Button();
-            this.bt3 = new System.Windows.Forms.Button();
             this.bt4 = new System.Windows.Forms.Button();
+            this.bt3 = new System.Windows.Forms.Button();
             this.MenuPanel = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -104,17 +104,6 @@
             this.bt2.Text = "치킨";
             this.bt2.UseVisualStyleBackColor = false;
             // 
-            // bt3
-            // 
-            this.bt3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.bt3.Location = new System.Drawing.Point(274, 2);
-            this.bt3.Margin = new System.Windows.Forms.Padding(2);
-            this.bt3.Name = "bt3";
-            this.bt3.Size = new System.Drawing.Size(132, 52);
-            this.bt3.TabIndex = 4;
-            this.bt3.Text = "음료";
-            this.bt3.UseVisualStyleBackColor = false;
-            // 
             // bt4
             // 
             this.bt4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
@@ -122,9 +111,20 @@
             this.bt4.Margin = new System.Windows.Forms.Padding(2);
             this.bt4.Name = "bt4";
             this.bt4.Size = new System.Drawing.Size(132, 52);
-            this.bt4.TabIndex = 3;
-            this.bt4.Text = "사이드";
+            this.bt4.TabIndex = 4;
+            this.bt4.Text = "음료";
             this.bt4.UseVisualStyleBackColor = false;
+            // 
+            // bt3
+            // 
+            this.bt3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.bt3.Location = new System.Drawing.Point(274, 2);
+            this.bt3.Margin = new System.Windows.Forms.Padding(2);
+            this.bt3.Name = "bt3";
+            this.bt3.Size = new System.Drawing.Size(132, 52);
+            this.bt3.TabIndex = 3;
+            this.bt3.Text = "사이드";
+            this.bt3.UseVisualStyleBackColor = false;
             // 
             // MenuPanel
             // 
@@ -331,10 +331,10 @@
 
         private System.Windows.Forms.ListView MenuListView;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Button bt3;
+        private System.Windows.Forms.Button bt4;
         private System.Windows.Forms.Button bt1;
         private System.Windows.Forms.Button bt2;
-        private System.Windows.Forms.Button bt4;
+        private System.Windows.Forms.Button bt3;
         private System.Windows.Forms.Panel MenuPanel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBox1;
